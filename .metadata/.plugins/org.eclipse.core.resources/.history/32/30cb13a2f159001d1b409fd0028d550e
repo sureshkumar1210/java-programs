@@ -1,0 +1,19 @@
+package abstarction;
+
+public class Laptop extends Lenova {
+
+	public static void main(String[] args) {
+		Laptop sk=new Laptop();
+		sk.keyboard();
+		sk.monitor();
+		
+		
+	}
+
+	@Override
+	void keyboard() {
+		System.out.println("typing function");
+		
+	}
+
+}

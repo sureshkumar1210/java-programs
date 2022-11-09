@@ -1,0 +1,19 @@
+package abstarction;
+
+abstract class Lenova {
+	int quality;
+	string resulation;
+	abstract void keyboard();
+	void monitor() {
+		System.out.println("result");
+	}
+	static void mouse() {
+		System.out.println("choose the file");
+	}
+	
+	public Lenova (String resulation,int quality) {
+		this.quality=quality;
+		this.resulation=resulation;
+		
+	}
+}

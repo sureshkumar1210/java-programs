@@ -1,0 +1,11 @@
+package abstarction;
+
+abstract class Lenova {
+	abstract void keyboard();
+	void monitor() {
+		System.out.println("result");
+		
+	}
+	
+
+}

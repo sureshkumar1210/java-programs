@@ -1,0 +1,25 @@
+package abstarction;
+
+public class Laptop extends Lenova {
+
+	public Laptop(String resulation, int quality) {
+		super("low", 50);
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		Laptop sk=new Laptop("high",100);
+		sk.keyboard();
+		sk.monitor();
+		mouse();
+		
+		
+		
+	}
+
+	@Override
+	void keyboard() {
+		System.out.println("typing function");
+	}
+	
+}

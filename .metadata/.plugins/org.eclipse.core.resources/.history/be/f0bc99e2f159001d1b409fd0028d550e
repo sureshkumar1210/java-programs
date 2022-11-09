@@ -1,0 +1,22 @@
+package abstarction;
+
+public class Laptop extends Lenova {
+
+	public static void main(String[] args) {
+		Laptop sk=new Laptop();
+		sk.keyboard();
+		sk.monitor();
+		mouse();
+		
+		
+	}
+
+	@Override
+	void keyboard() {
+		System.out.println("typing function");
+	}
+	static void mouse() {
+		System.out.println("choose the file");
+	}
+
+}
